@@ -1,0 +1,36 @@
+.bg {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width:  100%;
+  height: 100%;
+  z-index: -5;
+}
+.bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  max-width: 100%;
+  z-index: 1;
+
+}
+
+.polaris_info {
+  width: 600px;
+  height: 600px;
+  border: 1px solid black;
+  background-color: black;
+  z-index: 3;
+  position: absolute;
+  left: 375px;
+  top: 50px;
+  box-sizing: border-box;
+  max-width: 100%
+  min-width: 50%
+
+}
