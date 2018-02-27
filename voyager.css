@@ -15,31 +15,60 @@
   margin: auto;
   min-width: 50%;
   min-height: 50%;
-  max-width:100%;
+  max-width: 100%;
   z-index: 1;
 
 }
 
 .star_chart {
-  width: 550px;
-  height: 550px;
+  width: 600px;
+  height: 600px;
   border: 1px solid black;
   background-color: black;
   z-index: 3;
   position: absolute;
-  left: 400px;
-  top: 75px;
+  left: 375px;
+  top: 50px;
   box-sizing: border-box;
+  max-width: 100%
+  min-width: 50%
 
 }
 
 .star_chart img {
   position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 500px
-  height: 500px
+  left: 20px;
+  top: 20px;
+  width: 650px
+  height: 650px
   box-sizing: border-box;
+
+
+}
+
+#polaris_button {
+  position: absolute;
+  left: 290px;
+  top: 281px;
+  z-index: 2;
+  background-color: white;
+  border-radius: 100%;
+  height: 10px;
+  width: 3px;
+  -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+    }
+
+  #polaris_button:hover {
+      background-color: #3f85f4;
+      color: white;
+
+  }
+
+  #polaris_button:focus {
+    background-color: #022968;
+    color: white;
+  }
 
 
 }
