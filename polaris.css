@@ -95,3 +95,8 @@
   font-size: 15px;
 
 }
+
+#nav {
+  background-color: black;
+  font-family: monospace, "liberation mono";
+}

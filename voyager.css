@@ -46,6 +46,7 @@
 
 }
 
+
 #polaris_button {
   position: absolute;
   left: 290px;
@@ -89,4 +90,9 @@
 .instructions p{
   color: white;
   font-family: monospace, "liberation mono" ;
+}
+
+#nav {
+  background-color: black;
+  font-family: monospace, "liberation mono";
 }
