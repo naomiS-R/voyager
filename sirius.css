@@ -1,0 +1,104 @@
+.bg {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width:  100%;
+  height: 100%;
+  z-index: -5;
+}
+.bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  max-width: 100%;
+  z-index: 1;
+
+}
+
+.sirius_info {
+  width: 600px;
+  height: 600px;
+  border: 1px solid black;
+  background-color: black;
+  z-index: 3;
+  position: absolute;
+  left: 375px;
+  top: 60px;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 50%;
+
+}
+
+.sirius_info img {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 125px;
+  left: 40px;
+
+
+
+}
+
+.sirius_info h1 {
+  color: white;
+  font-family: monospace, "liberation mono";
+  position: absolute;
+  top:10px;
+  left: 45px;
+  width: 600px;
+}
+
+#other_names {
+  color: white;
+  font-family: monospace, "liberation mono";
+  position: absolute;
+  top:95px;
+  left: 225px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#names {
+  color: white;
+  font-family: monospace, "liberation mono";
+  position: absolute;
+  top:140px;
+  left: 225px;
+  font-size: 18px;
+}
+
+#Facts {
+
+  color: white;
+  font-family: monospace, "liberation mono";
+  position: absolute;
+  top:175px;
+  left: 225px;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+#facts_list {
+  color: white;
+  font-family: monospace, "liberation mono";
+  position: absolute;
+  top:225px;
+  left: 200px;
+  font-size: 18px;
+
+}
+
+#nav {
+  background-color: black;
+  font-family: monospace, "liberation mono";
+  border-color: black;
+
+}
