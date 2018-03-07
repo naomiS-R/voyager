@@ -148,3 +148,27 @@
       background-color: #000033;
       color: white;
     }
+
+    #vega_button {  position: absolute;
+      left: 175px;
+      top: 200px;
+      z-index: 2;
+      background-color: #3f85f4;
+      border-radius: 100%;
+      border-color: #3f85f4;
+      height: 10px;
+      width: 3px;
+      -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+        }
+
+      #vega_button:hover {
+          background-color: #022968;
+          color: white;
+
+      }
+
+      #vega_button:focus {
+        background-color: #000033;
+        color: white;
+      }
