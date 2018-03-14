@@ -63,6 +63,9 @@
   left: 225px;
   font-size: 25px;
   font-weight: bold;
+  min-width: 75%;
+  max-width: 75%;
+  max-height: 75%;
 }
 
 #names {
@@ -72,6 +75,9 @@
   top:150px;
   left: 225px;
   font-size: 18px;
+  min-width: 75%;
+  max-width: 75%;
+  max-height: 75%;
 }
 
 #Facts {
@@ -83,6 +89,9 @@
   left: 225px;
   font-size: 25px;
   font-weight: bold;
+  min-width: 75%;
+  max-width: 75%;
+  max-height: 75%;
 
 }
 
@@ -93,6 +102,9 @@
   top:225px;
   left: 200px;
   font-size: 18px;
+  min-width: 75%;
+  max-width: 100%;
+  max-height: 75%;
 
 
 }
