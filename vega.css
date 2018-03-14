@@ -30,7 +30,7 @@
   left: 375px;
   top: 60px;
   box-sizing: border-box;
-
+  min-width: 50%
 }
 
 .vega_info img {
